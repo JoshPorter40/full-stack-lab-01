@@ -1,18 +1,10 @@
-/* Your name
-Your career/field
-A short description of yourself
-A list of your interests
-A list of your past positions that includes company/place name, title, short description of what you did
-A list of your skills
-*/
-
 
 var name = ('Josh Porter');
 var career = ('Climbing Wall Instructor');
 var description = ('Twenty-two years old, preparing to start my career as a developer');
 
 
-console.log('Name: ' + name);
+console.log('Name: ' + name.toUpperCase());
 console.log('Career: ' + career);
 console.log('Description: ' + description);
 
@@ -44,6 +36,23 @@ displayPosition('Truck dispatcher ', 'Cleared Direct Transport ',
 'I would find shipments for the trucks to deliver.');
 displayPosition('Fitness instructor ', 'Wills Valley Recreational Center ', 
 'I worked in the weight-lifting room spotting members and maintaining safety.');
+
+console.log('');
+
+function displaySkill(skill, cool) {
+        if(skill === cool) {
+        console.log('Bam: ' + skill);
+ } else {
+        console.log(skill);
+ }
+}
+ console.log('My Skills:');
+displaySkill('Critical thinking');
+displaySkill('Problem solving', 'Problem solving');
+displaySkill('Driving a manual transmission');
+displaySkill('Javascript', 'Javascript');
+
+
 
 
 
