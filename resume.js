@@ -39,8 +39,8 @@ displayPosition('Fitness instructor ', 'Wills Valley Recreational Center ',
 
 console.log('');
 
-function displaySkill(skill, cool) {
-        if(skill === cool) {
+function displaySkill(skill, isCool) {
+        if(isCool === true) {
         console.log('Bam: ' + skill);
  } else {
         console.log(skill);
@@ -48,9 +48,9 @@ function displaySkill(skill, cool) {
 }
  console.log('My Skills:');
 displaySkill('Critical thinking');
-displaySkill('Problem solving', 'Problem solving');
+displaySkill('Problem solving', true);
 displaySkill('Driving a manual transmission');
-displaySkill('Javascript', 'Javascript');
+displaySkill('Javascript', true);
 
 
 
